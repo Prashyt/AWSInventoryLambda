@@ -15,6 +15,7 @@ ec = boto3.client('ec2')
 #S3 connection beginning
 s3 = boto3.resource('s3')
 
+#adding a comment
 #lambda function beginning
 def lambda_handler(event, context):
     #get to the curren date
